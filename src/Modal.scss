@@ -1,0 +1,44 @@
+.modal {
+    .mask{
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        height: 100%;
+        background-color: rgba(0,0,0,.45);
+    }
+
+    .wrapper {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        overflow: auto;
+        outline: 0;
+
+        .document {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            padding: 0;
+            color: rgba(0,0,0,.65);
+            font-size: 14px;
+            font-variant: tabular-nums;
+            line-height: 1.5715;
+            list-style: none;
+            -webkit-font-feature-settings: 'tnum';
+            font-feature-settings: 'tnum';
+            position: relative;
+            top: 100px;
+            margin: 0 auto;
+            padding-bottom: 24px;
+            pointer-events: none;
+            height: 300px;
+            width: 300px;
+        }
+
+    }
+}
